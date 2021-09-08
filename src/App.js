@@ -16,7 +16,7 @@ function App(props) {
             Connecting your wallet will enable you to participate in locked communities, earn perks and much more!
           </p>
           <div className="flex justify-center">
-            <button className={`inline-flex text-binanceTextSecondary bg-binanceButtonPrimary border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+            <button className="inline-flex text-binanceTextSecondary bg-binanceButtonPrimary border-0 py-2 px-6 focus:outline-none rounded text-lg">
               Connect MetaMask
             </button>
             <button className="ml-4 inline-flex text-gray-700 bg-binanceButtonSecondary text-binanceTextPrimary border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
